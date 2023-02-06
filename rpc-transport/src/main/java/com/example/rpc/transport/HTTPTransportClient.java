@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class HTTPTransportClient implements TransportClient{
+public class HTTPTransportClient implements TransportClient {
 
     private String url;
 

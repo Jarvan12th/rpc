@@ -17,6 +17,7 @@
         <java.version>11</java.version>
         <rpc-protocol.version>0.0.1-SNAPSHOT</rpc-protocol.version>
         <commons-io.version>2.5</commons-io.version>
+        <jetty-servlet.version>9.4.44.v20210927</jetty-servlet.version>
     </properties>
     <dependencies>
         <dependency>
@@ -34,6 +35,12 @@
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
             <version>${commons-io.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-servlet</artifactId>
+            <version>${jetty-servlet.version}</version>
         </dependency>
 
         <dependency>
