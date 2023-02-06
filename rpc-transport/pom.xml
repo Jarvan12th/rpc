@@ -15,6 +15,8 @@
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>11</java.version>
+        <rpc-protocol.version>0.0.1-SNAPSHOT</rpc-protocol.version>
+        <commons-io.version>2.5</commons-io.version>
     </properties>
     <dependencies>
         <dependency>
@@ -29,9 +31,15 @@
         </dependency>
 
         <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
+        </dependency>
+
+        <dependency>
             <groupId>com.example</groupId>
-            <artifactId>rpc</artifactId>
-            <version>${project.version}</version>
+            <artifactId>rpc-protocol</artifactId>
+            <version>${rpc-protocol.version}</version>
         </dependency>
     </dependencies>
 
