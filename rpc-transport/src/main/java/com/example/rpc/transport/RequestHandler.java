@@ -5,5 +5,5 @@ import java.io.OutputStream;
 
 public interface RequestHandler {
 
-    void onRequest(InputStream receive, OutputStream toResponse);
+    void onRequest(InputStream receive, OutputStream toResponse) throws Exception;
 }

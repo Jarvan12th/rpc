@@ -30,7 +30,25 @@
 
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>rpc</artifactId>
+            <artifactId>rpc-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>rpc-protocol</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>rpc-transport</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example</groupId>
+            <artifactId>rpc-serializer</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
