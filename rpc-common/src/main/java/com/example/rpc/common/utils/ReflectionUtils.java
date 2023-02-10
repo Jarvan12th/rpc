@@ -7,8 +7,7 @@ import java.util.Arrays;
 public class ReflectionUtils {
     public static <T> T newInstance(Class<T> clazz) throws Exception {
         try {
-//            return clazz.getDeclaredConstructor().newInstance();
-            return clazz.newInstance();
+            return clazz.getDeclaredConstructor().newInstance();
         } catch (Exception e) {
             throw new Exception("new instance exception");
         }
